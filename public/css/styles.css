@@ -1,0 +1,89 @@
+body{
+	/* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-h1-spacing{
+	margin-top: 18px;
+}
+.form-spacing-top{
+
+	margin-top: 30px;
+}
+.comment{
+    margin-bottom: 45px;
+    border-left:solid 5px #1b809e;
+
+}
+
+.author-image{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left; 
+
+}
+
+.author-name{
+
+	float: left;
+	margin-left: 15px;
+
+}
+.author-name>h4 {
+	margin: 5px 0px;
+	
+}
+
+.author-created_at{
+	font-size: 11px;
+	font-style: italic;
+	color: #aaa;
+}
+
+.comment-content{
+
+	clear: both;
+	margin-left: 65px;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+.comments-title{
+	margin-bottom: 45px;
+}
+
+.comments-title>span {
+	margin-right: 15px;
+}
+
+.edit-delete-button{
+	margin-top: 20px;
+	margin-left: 65px;
+	margin-bottom: 5px;
+}
+.navbar-profile-image>img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.navbar-profile-image{
+	margin-right: 5px;
+}
+.dropdown-menu{
+
+	background-color: rgba(34, 34, 34, 0.89);
+	box-shadow: 12px 17px 6px rgba(0,0,0,.175); 
+}
+.dropdown-menu>li>a{
+	color:#a7b1a5;
+}
+
+.dropdown-menu>li>a:hover{
+	color:white;
+	background-color: rgba(34, 34, 34,0.89);
+}
